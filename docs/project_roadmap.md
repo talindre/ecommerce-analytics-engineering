@@ -274,21 +274,24 @@ Tasks:
 
 Questions:
 
-- What tables exist?
-- What does each table represent?
-- Potential primary keys?
-- Potential foreign keys?
-- Interesting columns?
+- What tables exist? (Complete)
+- What does each table represent? (Complete)
+- Potential primary keys? (Complete)
+- Potential foreign keys? (Complete)
+- Interesting columns? (Complete)
 
 Output:
 
-docs/data_dictionary.md
+docs/data_dictionary.md (Complete)
 
 ---
 
 ## Day 2
 
 Business Understanding
+
+Tasks:
+- Investigate the data using SQL to verfy day1's hypothesis 
 
 Questions:
 

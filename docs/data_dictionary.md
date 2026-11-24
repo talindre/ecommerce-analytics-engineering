@@ -196,3 +196,36 @@ Translation
 - An estimation of delivery is made by the company delivery system and availability of their items and the customer is most likely given a timeline
 - It is delivered (or not if cancelled or unpaid)
 - Possible review(s) is made by the customer
+
+## Update of PK's after checking
+Customers Table: 
+
+Tool - DuckDB for quick analysis of csv files with SQL 
+
+Code:
+SELECT
+    COUNT(*) AS total_rows,
+    COUNT(DISTINCT col) AS product_id,
+    COUNT(*) - COUNT(col) AS null_count
+FROM 'olist_products_dataset.csv';
+
+### Customers Table 
+    - customers_id
+### Geolocation Table 
+    - unknown
+### Order Items Table 
+    - unknown
+    - I think the data here is dirty and so it will be hard to pin down the exact Primary key OR there is a composite key
+### Order Payments Table 
+    - I still suspect that order ID is but due to duplicates the total row doesnt match though there are no nulls so theres a high chance
+### Order Reviews Table 
+    - review_id most definitely but theres still dupes
+### Orders Table 
+    - order_id 
+### Products Table 
+    - products_id 
+### Sellers Table 
+    - sellers_id
+### Category Translation Table 
+    - none
+

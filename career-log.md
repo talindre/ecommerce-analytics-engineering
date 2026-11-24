@@ -16,9 +16,12 @@
 
 ## Day 2
 ### What I did today:
-
+- I worked on analysing
+- I worked on finding keys and understanding the business data
 ### What I learned today:
-
+- How to do quick analysis of messy data and look for keys
 ### What confused me today:
-
+- How to find a composite key
+- How to find the main product category more precisely
 ### Questions for later:
+- How do I find out the other keys
